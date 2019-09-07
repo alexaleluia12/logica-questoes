@@ -26,7 +26,7 @@ No futuro o sistema pode ter mais atributos e mais ordenações. Essas coisas de
 criadas de forma fácil e rápida.
 
 ## 2 - Agrupamento
-Dada uma matrix de itens que são do mesmo grupo (group_id), deixe items do mesmo grupo em um único item. A lista de entrada não deve ser alterada.
+Dada uma matrix de itens, deixe items do mesmo grupo em um único item. A lista de entrada não deve ser alterada.
 A ordem dos itens deve ser respeitada. Deixe apenas as proprieades group_id e itens na saída.
 Mostre a matrix de entrada e saida.
 
