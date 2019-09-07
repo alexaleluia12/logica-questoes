@@ -1,11 +1,11 @@
-# Exercício de Logica
+# Exercício de Lógica
 Fique avontade para fazer na linguagem que quiser.
 Se tiver teste automatizado melhor inda.
 
 Tem alguns arquivos com dados em massa
 
 ## 1 - Ordenação
-Dada uma lista de candidados/profissional. Queremos ordernar por:
+Dada uma lista de candidatos/profissional. Queremos ordernar por:
 - idade
 - salário
 - anos de experiência
@@ -15,7 +15,7 @@ Dada uma lista de candidados/profissional. Queremos ordernar por:
 A orderm padrão é ascendente porém deve ser possivel ordernar descendente para qualquer
 filtro anterior
 
-Um Cantidade tem os seguintes atributods
+Um Cantidato tem os seguintes atributods
 - id
 - nome
 - idade
@@ -41,7 +41,7 @@ Entrada
             '145365',
             '8i3dcr2',
         ],
-        'population': 1
+        'line': 1
     },
     {
         "group_id": "x8jfu",
@@ -66,7 +66,7 @@ Entrada
 Saída
 ```js
 [
-    [
+    {
         "group_id": "x8jfu",
         "itens": [
             "xjfoeij",
@@ -75,15 +75,15 @@ Saída
             "mki1d0",
             "duf36d"
         ]
-    ],
-    [
+    },
+    {
         "group_id": "uty28",
         "itens": [
             "8jfoejhf"
             "1449j387f",
-            "839jkfu1",
+            "839jkfu1"
         ]
-    ]
+    }
 ]
 ```
 
@@ -92,7 +92,7 @@ Saída
 Você notou que fazer um insert por um no baco de dados demora muito
 por isso você vai montar um insert de muitos por vez. (Bulk Insert)
 Data uma lista de Pessoas (id, nome, idade) retornar uma lista de string
-com o sql de insert equivalente (100 por vez - cada insert vai ter 100 elementos).
+com o sql de insert equivalente (100 por vez - cada insert vai ter 100 Pessoas).
 Lembrando que o último item não pode ter virgula.
 
 A tabela é person, e as colunas são: id, name, age
