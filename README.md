@@ -1,6 +1,6 @@
 # Exercício de Lógica
 Fique avontade para fazer na linguagem que quiser.
-Se tiver teste automatizado melhor inda.
+Se tiver teste automatizado melhor inda. Tem um problema manda um pr.
 
 Tem alguns arquivos com dados em massa
 
@@ -22,8 +22,6 @@ Um Cantidato tem os seguintes atributods
 - experiência
 - salário
 
-No futuro o sistema pode ter mais atributos e mais ordenações. Essas coisas devem ser
-criadas de forma fácil e rápida.
 
 ## 2 - Agrupamento
 Dada uma matrix de itens, deixe items do mesmo grupo em um único item. A lista de entrada não deve ser alterada.
