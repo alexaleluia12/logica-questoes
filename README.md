@@ -140,3 +140,8 @@ Sincronizar o arquivo do s3 com o arquivo localhost.
 Se o arquivo no s3 é mais novo deve que baixar, caso contrario faz nada.
 Use a propriedade LastModified tanto do s3 quanto do arquivo local.
 E timezone UTC.
+
+## 5 - Máximo
+Dado 3 valores numéricos determinar o de maior valor.
+Exemplo: max(45, 23, 12) -> 45
+
